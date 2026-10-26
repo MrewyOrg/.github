@@ -39,7 +39,11 @@
   "editor.smoothScrolling": true,
 
   // Files
-  "files.readonlyInclude": { "node_modules/**/*": true },
+  "files.readonlyInclude": {
+    ".husky/_/*": true,
+    "node_modules/**/*": true,
+    "package-lock.json": true
+  },
   "files.trimTrailingWhitespace": true,
   "files.autoSave": "onFocusChange",
   "files.insertFinalNewline": true,
