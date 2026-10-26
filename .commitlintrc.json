@@ -1,0 +1,5 @@
+{
+  "extends": ["@commitlint/config-conventional"],
+  "formatter": "@commitlint/format",
+  "helpUrl": "https://github.com/conventional-changelog/commitlint/blob/master/%40commitlint/config-conventional/README.md"
+}

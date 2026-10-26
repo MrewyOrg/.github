@@ -1,0 +1,1 @@
+{ "!(*.png)": "cspell", "*": "cspell", "*.md": "markdownlint-cli2" }

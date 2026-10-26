@@ -1,0 +1,101 @@
+{
+  // Terminal
+  "terminal.integrated.shellIntegration.enabled": true,
+
+  "terminal.integrated.suggest.insertTrailingSpace": false,
+  "terminal.integrated.suggest.showStatusBar": true,
+  "terminal.integrated.suggest.enabled": true,
+  "terminal.integrated.suggest.quickSuggestions": {
+    "commands": "on",
+    "arguments": "on",
+    "unknown": "off"
+  },
+
+  "terminal.integrated.tabs.showActions": "singleTerminalOrNarrow",
+  "terminal.integrated.tabs.title": "mrewyorg${separator}${process}",
+  "terminal.integrated.tabs.showActiveTerminal": "always",
+
+  "terminal.integrated.persistentSessionReviveProcess": "never",
+  "terminal.integrated.enablePersistentSessions": false,
+
+  "terminal.integrated.gpuAcceleration": "auto",
+  "terminal.integrated.enableImages": false,
+
+  "terminal.integrated.smoothScrolling": true,
+
+  "terminal.integrated.initialHint": false,
+
+  // Editor
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+
+  "editor.detectIndentation": false,
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+
+  "editor.experimentalGpuAcceleration": "on",
+
+  "editor.smoothScrolling": true,
+
+  // Files
+  "files.readonlyInclude": { "node_modules/**/*": true },
+  "files.trimTrailingWhitespace": true,
+  "files.autoSave": "onFocusChange",
+  "files.insertFinalNewline": true,
+  "files.encoding": "utf8",
+  "files.eol": "\n",
+
+  "files.associations": {
+    "commit-msg": "shellscript",
+    "pre-commit": "shellscript",
+    "check-package-version": "shellscript"
+  },
+
+  "[markdown]": { "files.trimTrailingWhitespace": false },
+
+  // Source Control
+  "scm.repositories.selectionMode": "single",
+  "scm.repositories.explorer": true,
+
+  "scm.showInputActionButton": false,
+
+  "scm.graph.badges": "all",
+
+  // Workbench
+  "workbench.list.smoothScrolling": true,
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.startupEditor": "none",
+
+  // Git
+  "git.enableCommitSigning": true,
+  "git.alwaysSignOff": false,
+  "git.autofetch": true,
+
+  // Prettier
+  "prettier.requireConfig": true,
+  "prettier.configPath": ".prettierrc.json",
+  "prettier.ignorePath": ".prettierignore",
+
+  // npm
+  "npm.packageManager": "npm",
+  "npm.scriptRunner": "npm",
+
+  // GitLens
+  "gitlens.telemetry.enabled": false,
+
+  // vscode-icons
+  "vsicons.customIconFolderPath": "assets",
+  "vsicons.associations.files": [
+    { "icon": "catSmile", "extensions": ["README.md"], "filename": true, "format": "png" }
+  ],
+
+  // Telemetry
+  "telemetry.editStats.enabled": false,
+  "telemetry.feedback.enabled": false,
+
+  // Other
+  "diffEditor.ignoreTrimWhitespace": false,
+
+  "chat.disableAIFeatures": true
+}
