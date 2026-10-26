@@ -1,5 +1,5 @@
 <!-- @format -->
 
-# MrewyOrg
+# ![MrewyOrg Logo](assets/catSmile.png) MrewyOrg
 
 .
