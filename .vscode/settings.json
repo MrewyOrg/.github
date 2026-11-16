@@ -29,34 +29,42 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "file",
 
   "editor.detectIndentation": false,
   "editor.insertSpaces": true,
   "editor.tabSize": 2,
 
-  "editor.experimentalGpuAcceleration": "on",
-
   "editor.smoothScrolling": true,
 
   // Files
   "files.readonlyInclude": {
-    ".husky/_/*": true,
+    ".husky/_/**/*": true,
     "node_modules/**/*": true,
     "package-lock.json": true
   },
   "files.trimTrailingWhitespace": true,
+  "files.trimFinalNewlines": true,
   "files.autoSave": "onFocusChange",
   "files.insertFinalNewline": true,
   "files.encoding": "utf8",
   "files.eol": "\n",
 
   "files.associations": {
-    "commit-msg": "shellscript",
-    "pre-commit": "shellscript",
-    "check-package-version": "shellscript"
+    "**/.husky/commit-msg": "shellscript",
+    "**/.husky/pre-commit": "shellscript"
   },
 
-  "[markdown]": { "files.trimTrailingWhitespace": false },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "files.trimTrailingWhitespace": false
+  },
+
+  "files.watcherExclude": { "**/.husky/_/**": true },
+
+  // Search
+  "search.exclude": { "**/.husky/_/**": true },
+  "search.useIgnoreFiles": true,
 
   // Source Control
   "scm.repositories.selectionMode": "single",
@@ -76,22 +84,40 @@
   "git.alwaysSignOff": false,
   "git.autofetch": true,
 
+  // GitHub
+  "githubPullRequests.defaultDeletionMethod.selectLocalBranch": false,
+  "githubPullRequests.defaultDeletionMethod.selectRemote": false,
+
   // Prettier
   "prettier.requireConfig": true,
   "prettier.configPath": ".prettierrc.json",
   "prettier.ignorePath": ".prettierignore",
+
+  // Markdownlint
+  "markdownlint.configFile": ".markdownlint-cli2.jsonc",
+  "markdownlint.run": "onSave",
+
+  // Spell checking
+  "cSpell.mergeCSpellSettings": false,
+
+  // Commitlint
+  "commitlint.config.file": ".commitlintrc.json",
+  "commitlint.preferBundledLibraries": false,
 
   // npm
   "npm.packageManager": "npm",
   "npm.scriptRunner": "npm",
 
   // GitLens
+  "gitlens.ai.enabled": false,
+  "gitlens.plusFeatures.enabled": false,
   "gitlens.telemetry.enabled": false,
+  "gitlens.virtualRepositories.enabled": false,
 
   // vscode-icons
   "vsicons.customIconFolderPath": "assets",
   "vsicons.associations.files": [
-    { "icon": "catSmile", "extensions": ["README.md"], "filename": true, "format": "png" }
+    { "icon": "mrewyorg-icon", "extensions": ["README.md"], "filename": true, "format": "png" }
   ],
 
   // Telemetry
@@ -101,5 +127,5 @@
   // Other
   "diffEditor.ignoreTrimWhitespace": false,
 
-  "chat.disableAIFeatures": true
+  "chat.disableAIFeatures": false
 }

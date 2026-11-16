@@ -1,2 +1,5 @@
-npx commitlint --edit ${1}
-npx cspell --no-summary --no-progress --language-id commit-msg ${1}
+#!/bin/sh
+set -eu
+
+npx --no-install commitlint --edit "$1"
+npx --no-install cspell --no-summary --no-progress --language-id commit-msg "$1"

@@ -6,13 +6,11 @@
 
   "useGitignore": true,
   "enableGlobDot": true,
-  "caseSensitive": false,
   "allowCompoundWords": true,
   "validateDirectives": true,
-  "ignoreRandomStrings": true,
 
-  "dictionaries": [],
   "ignorePaths": [
+    ".git/worktrees",
     ".git/gk",
     ".git/hooks",
     ".git/info",
@@ -25,13 +23,20 @@
     ".git/HEAD",
     ".git/index",
     ".git/ORIG_HEAD",
-    ".git/packed-refs"
+    ".git/packed-refs",
+    "**/node_modules/**",
+    "**/package-lock.json"
   ],
 
   "words": [
     // Names
     "Mrewy",
     "MrewyOrg",
+    "Botge",
+    "BTTV",
+    "FFZ",
+    "commitlintrc",
+    "webp",
 
     // Extensions
     "eamodio",

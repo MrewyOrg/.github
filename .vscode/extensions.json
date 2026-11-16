@@ -3,7 +3,6 @@
     // Project
     "EditorConfig.EditorConfig",
     "esbenp.prettier-vscode",
-    "actboy168.tasks",
 
     // Syntax
     "streetsidesoftware.code-spell-checker",
@@ -14,7 +13,6 @@
     // Extras
     "GitHub.vscode-pull-request-github",
     "vscode-icons-team.vscode-icons",
-    "aaron-bond.better-comments",
     "eamodio.gitlens"
   ],
   "unwantedRecommendations": ["christian-kohler.npm-intellisense"]

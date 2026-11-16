@@ -1,5 +1,16 @@
 {
   "extends": ["@commitlint/config-conventional"],
   "formatter": "@commitlint/format",
+  "rules": {
+    "scope-empty": [2, "never"],
+    "scope-case": [2, "always", "kebab-case"],
+    "header-trim": [2, "always"],
+    "header-max-length": [2, "always", 100],
+    "subject-min-length": [2, "always", 3],
+    "body-leading-blank": [2, "always"],
+    "body-max-line-length": [2, "always", 100],
+    "footer-leading-blank": [2, "always"],
+    "footer-max-line-length": [2, "always", 100]
+  },
   "helpUrl": "https://github.com/conventional-changelog/commitlint/blob/master/%40commitlint/config-conventional/README.md"
 }

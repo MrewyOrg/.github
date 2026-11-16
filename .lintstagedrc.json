@@ -1,1 +1,4 @@
-{ "!(*.png)": "cspell", "*": "cspell", "*.md": "markdownlint-cli2" }
+{
+  "*.md": ["prettier --write", "markdownlint-cli2", "cspell"],
+  "!(*.md|*.webp|*.png)": ["prettier --write --ignore-unknown", "cspell"]
+}

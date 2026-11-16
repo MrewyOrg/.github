@@ -1,18 +1,11 @@
-<!-- @format -->
+# Summary
 
-<!--
-Thank you for submitting a pull request!
+<!-- Describe the problem and resulting behavior. -->
 
-Please verify that:
-* [ ] Code is up-to-date with the `main` branch
-* [ ] You've successfully run `npm install` locally
-* [ ] You've successfully run `npm run prettier` locally
-* [ ] You've successfully run `npx lint-staged --no-stash` locally
+## Validation
 
-Refer to CONTRIBUTING.MD for more details.
-  https://github.com/MrewyOrg/.github/blob/main/.github/CONTRIBUTING.md
+<!-- List checks run and any failures or checks skipped, with reasons. -->
 
-If you're interested in sending a PR, the issue tracker has many issues marked `help wanted`.
--->
+## Related issues
 
-# Fixes
+<!-- Use "Fixes #42" to close an issue when merged. -->

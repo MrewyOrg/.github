@@ -1,4 +1,4 @@
-npm install
+#!/bin/sh
+set -eu
 
-npm run prettier
-npx lint-staged --no-stash
+npx --no-install lint-staged

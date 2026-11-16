@@ -2,7 +2,7 @@
   "endOfLine": "lf",
   "experimentalOperatorPosition": "start",
   "experimentalTernaries": true,
-  "insertPragma": true,
+  "htmlWhitespaceSensitivity": "strict",
   "objectWrap": "collapse",
   "plugins": ["prettier-plugin-sh"],
   "printWidth": 100,
